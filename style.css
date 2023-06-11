@@ -128,3 +128,12 @@ p {
 .col-md-12 {
   margin-top: 40px;
 }
+
+@media (max-width: 575.98px);
+h2 {
+  padding-top: 50px;
+}
+h1 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
