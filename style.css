@@ -129,11 +129,36 @@ p {
   margin-top: 40px;
 }
 
-@media (max-width: 575.98px);
-h2 {
-  padding-top: 50px;
+.about-title {
+  padding-top: 5%;
 }
-h1 {
-  padding-top: 10px;
-  padding-bottom: 30px;
+
+@media (max-width: 575.98px) {
+  h2 {
+    padding-top: 50px;
+  }
+  h1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  #index-yoga,
+  #index-weather,
+  #index-yogurt {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
+  h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #weather-card,
+  #yogurt-card {
+    margin-top: 25%;
+  }
+  .about-title {
+    padding-top: 20%;
+  }
 }
